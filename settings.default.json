@@ -1,0 +1,27 @@
+{
+    "token":"INSERT TOKEN HERE! (It'll be a string, so keep the quotes!)",
+    "separator":":",
+    "names":[
+        "Uno", 
+        "Dos",
+        "Tres"
+        ],
+    "colors":[
+        Uno's Color Number,
+        Dos's Color Number,
+        Tres's Color Number
+    ],
+    "images":[
+        "Uno's image url",
+        "Dos's image url",
+        "Tres's image url"
+    ],
+    "sources":[
+        Pipe 1 source channel id (will be a number),
+        Pipe 2 source channel id (will be a number)
+    ],
+    "destinations":[
+        Pipe 1 destination channel id (will be a number),
+        Pipe 2 destination channel id (will be a number)
+    ]
+}
