@@ -1,6 +1,6 @@
 import discord
 import asyncio
-import ujson as json
+import json
 
 def specialstart(message, tup, ind=0):
     if message.startswith(tup, ind):
@@ -44,8 +44,5 @@ class ChatterBot(discord.Client):
                 embed.set_author(name=name).set_thumbnail(url=url)
                 await self.destinations[self.sources.index(message.channel.id)].send(embed = embed)
 
-if __name__ == '__main__':
-    def bot_run():
-        bot = ChatterBot()
-        bot.loop.run_until_complete(bot.start())
-    bot_run()
+bot = ChatterBot()
+bot.loop.run_until_complete(bot.start())
