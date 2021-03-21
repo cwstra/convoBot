@@ -13,7 +13,7 @@ Python 3 is best installed by Googling it
 discord.py can be installed after Python 3 by the following command line command:
 
 ```bash
-python3 -m pip install -U git+https://github.com/Rapptz/discord.py@rewrite
+python3 -m pip install -U discord.py
 ```
 
 ## Installing and Set Up
